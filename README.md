@@ -9,8 +9,12 @@ The key use case for this package is to encode the contents of a directory with 
 This package is not currently hosted on PyPI, so doing a local install of this Git repository is the recommended method.
 
 ```bash
+git clone git@github.com:brown-ccv/pkldir.git
+
 cd <path/to/this/directory/>
 python3 setup.py sdist bdist_wheel
+
+cd ~/
 pip3 install <path/to/this/directory/>
 ```
 
