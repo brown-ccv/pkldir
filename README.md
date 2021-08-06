@@ -43,7 +43,7 @@ In order to decode a file previously created with the `pkldir` command line scri
 ```python
 import pkldir 
 
-text = decode('<path/to/myfile.pkl>')
+text = pkldir.decode('<path/to/myfile.pkl>')
 ```
 
 In the above example, the `text` object will be a cleartext string containing the contents of the pickled file `myfile.pkl`. The object `text` will be of type `str` and can then be manipulated an explored just like any other Python `str`.
