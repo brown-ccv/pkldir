@@ -21,8 +21,8 @@ pip3 install <path/to/this/directory/>
 # 3. Basic Usage 
 There are basically only two kinds of usage for this package: 
     
-    1. Encoding a directory of text documents
-    2. Decodeing and ingesting the contents of previously encoded documents
+* Encoding a directory of text documents
+* Decodeing and ingesting the contents of previously encoded documents
 
 The encoding portion would typically be done once on a directory of documents. And the decoding portion would be done any time that one wants to work with the content of the encoded documents. 
 
