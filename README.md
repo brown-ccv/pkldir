@@ -1,7 +1,7 @@
 # pkldir
 
 # 1. Overview
-This is small utility for encoding and decoding .pdf, .docx, .md, and .txt files in binary form. The use case for this package is to take an input directory and "pickle" its contents, and save them in a new directory. The "pickled" directory's contents can then no longer be easily read by user; instead, a user intending to read the contents of the pickled directory can do so using the `decode()` function from this package. 
+This is small utility for encoding and decoding .pdf, .docx, .md, and .txt files in binary form. This packages takes an input directory and "pickles" its contents, and save them in a new directory. The "pickled" directory's contents can then no longer be easily read by users; instead, a user intending to read the contents of the pickled directory can do so using the `decode()` function from this package. 
 
 The key use case for this package is to encode the contents of a directory with text documents so that they cannot be easily read using standard applications (e.g., MS Word, Adobe Reader, etc.). The encoded text documents _can_ be easily read using this package
 
